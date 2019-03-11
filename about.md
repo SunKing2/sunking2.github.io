@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Louie van Bommel, Ottawa.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Music in Recovery 317 Cody Ave.  Every Saturday (yes every single one), 1230-3pm.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Go to the above address at the above time!  :)
