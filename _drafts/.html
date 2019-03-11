@@ -1,0 +1,96 @@
+---
+layout: post
+title: ''
+date: 
+type: post
+parent_id: '0'
+published: false
+password: ''
+status: draft
+categories: []
+tags: []
+meta:
+  restapi_import_id: 5c3e3e20837b2
+author:
+  login: sunking2
+  email: louie10@data-everywhere.com
+  display_name: SunKing2
+  first_name: Louie
+  last_name: van Bommel
+---
+<p>JPA Tutorial  |<br />
+Using JPA with EclipseLink and Derby<br />
+by: Louie van Bommel, December 2010</p>
+<p>This tutorial compiles everything from the command line to keep it simple. It uses EclipseLink as a persistence provider. It uses Derby for a database. </p>
+<p>You won't need another thing if you use these jar files: </p>
+<p>eclipselink.jar<br />
+javax.persistence.jar<br />
+derby.jar<br />
+We'll start by creating some working directories </p>
+<p>mkdir tut2<br />
+cd tut2<br />
+mkdir lib<br />
+Copy the persistence provider's jar, and also the standard persistence.jar to our lib folder </p>
+<p>cp ../eclipselink.jar lib<br />
+cp ../javax.persistence.jar lib<br />
+Copy the database driver too </p>
+<p>cp ../derby.jar lib<br />
+Let's create some directories for our source code </p>
+<p>mkdir src<br />
+mkdir src/mystuff<br />
+mkdir src/META-INF<br />
+JPA requires a file called persistence.xml. This file contains mostly the username, password and driver name to connect to our database It also contains a symbolic name, called a "Persistence unit" which is just a name that we can use in our Java code when accessing JPA stuff. </p>
+<p>cat &gt; src/META-INF/persistence.xml &lt;&lt; &quot;EOF&quot;</p>
+<p>        mystuff.Employee</p>
+<p>EOF<br />
+You may have noticed that the persistence.xml file refers to mystuff.Employee. Let's now create that file. Edit our Employee file </p>
+<p>cat &gt; src/mystuff/Employee.java &lt; src/mystuff/MyMain.java &lt;&lt; &quot;EOF&quot;<br />
+package mystuff;<br />
+import javax.persistence.*;</p>
+<p>public class MyMain {</p>
+<p>    public static void main(String[] args) {</p>
+<p>        // myemployee is name of persistence unit in persistence.xml<br />
+        EntityManagerFactory emf =<br />
+            Persistence.createEntityManagerFactory(&quot;myemployee&quot;);</p>
+<p>        EntityManager manager = emf.createEntityManager();</p>
+<p>        // create a new Employee<br />
+        Employee emp = new Employee(&quot;John&quot;, 65432.10);</p>
+<p>        System.out.println(&quot;nI am saving:&quot; + emp);<br />
+        EntityTransaction tx = manager.getTransaction();<br />
+        // Runtime exceptions should be caught, but let&#039;s skip that:<br />
+        tx.begin();<br />
+        manager.persist(emp);<br />
+        tx.commit();</p>
+<p>        // Retrieve all Employees<br />
+        System.out.println(&quot;nHere are the employees on file:&quot;);<br />
+        Query query = manager.createQuery(&quot;select t from Employee t&quot;);</p>
+<p>        // produces warning: uses unchecked or unsafe operations<br />
+        java.util.List emps = query.getResultList();</p>
+<p>        for (Employee emp2 : emps) {<br />
+            System.out.println(emp2);<br />
+        }<br />
+        manager.close();<br />
+        System.out.println();<br />
+    }<br />
+}<br />
+EOF<br />
+All that remains is to compile it and run it </p>
+<p>javac -cp src:lib/javax.persistence.jar src/mystuff/MyMain.java<br />
+java -cp src:lib/eclipselink.jar:lib/derby.jar:lib/javax.persistence.jar mystuff.MyMain<br />
+...output... </p>
+<p>[EL Info]: 2010-11-29 02:51:34.327--ServerSession(917900179)--EclipseLink,<br />
+ version: Eclipse Persistence Services - 2.1.1.v20100817-r8050<br />
+[EL Info]: 2010-11-29 02:51:35.477--ServerSession(917900179)--file:/home/l<br />
+ouie/Documents/tmp/tutscripts/tut1/src/_myemployee login successful<br />
+[EL Warning]: 2010-11-29 02:51:35.7--ServerSession(917900179)--Exception [<br />
+EclipseLink-4002] (Eclipse Persistence Services - 2.1.1.v20100817-r8050):<br />
+org.eclipse.persistence.exceptions.DatabaseException<br />
+Internal Exception: java.sql.SQLSyntaxErrorException: Schema 'JOE' does no<br />
+t exist<br />
+Error Code: 30000<br />
+Call: DROP TABLE EMPLOYEE<br />
+Query: DataModifyQuery(sql="DROP TABLE EMPLOYEE")</p>
+<p>I am saving:Employee#:null, name:John, salary:65432.1</p>
+<p>Here are the employees on file:<br />
+Employee#:1, name:John, salary:65432.1</p>
+<p>$</p>
