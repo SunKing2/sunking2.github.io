@@ -20,4 +20,5 @@ Here are some latest YouTube videos, tap on them to see the video.
 [<img src="/images/goldrush.jpg">After The Goldrush-Rey](https://youtu.be/MSUC7qVh_sE)
 [<img src="/images/twilight.jpg">Song of Twilight -Piano Louie](https://youtu.be/I77kICALGac)
 
-Here is a work in progress of "The Rose" on piano, with 71% speed (I overestimated how fast I'd been playing), and a few jarring errors, including the last note!  However it's still played in time, so it can be sung over.:[The Rose (Piano Solo), Jan 17, 2020]("https://ia800200.us.archive.org/3/items/GeorgeOrwellsanimalFarmRadioAudio/AnimalFarm02.mp3")
+Here is a work in progress of "The Rose" on piano, with 71% speed (I overestimated how fast I'd been playing), and a few jarring errors, including the last note!  However it's still played in time, so it can be sung over.:
+[The Rose, Jan 17, 2020](https://ia800200.us.archive.org/3/items/GeorgeOrwellsanimalFarmRadioAudio/AnimalFarm02.mp3)
