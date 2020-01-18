@@ -4,7 +4,7 @@ title: Routines to Keep Me Sane
 ---
 I've been getting up 15 minutes earlier daily until I get nearer to 10am.  I had to do this when I got up at 1:30 twice.
 
-I've been slowly getting rid of some of the loose papers all over the place by doing daily the following: Pick up one piece of paper at a time, placing it in a better location (such as a file folder, recycle, or garbage, or box of common stuff).  I keep at it until I throw out six items.  It takes me about 15 or 20 minutes to do daily.  I've been doing it almost two weeks.
+I've been slowly getting rid of some of the loose papers all over the place by doing daily the following: Pick up one piece of paper at a time, placing it in a better location (such as a file folder, recycle, or garbage, or box of common stuff).  I keep at it until I throw out six items.  It takes me about 15 or 20 minutes to do daily.  I've been doing it for almost two weeks.
 
 I started the week in quite a low mood, and hit a low point when I realized that I couldn't attend the Noon time AA meeting even if I wanted to, and I had cause to; because someone was getting a chip.  So these routines and a very routine day have helped me stay sane.
 
@@ -23,4 +23,4 @@ Here are some latest YouTube videos, tap on them to see the video.
 [<img src="/images/twilight.jpg">](https://youtu.be/I77kICALGac)
 
 Here is a work in progress of "The Rose" on piano, with 71% speed (I overestimated how fast I'd been playing), and a few jarring errors, including the last note!  However it's still played in time, so it can be sung over. Do the usual to download, tap on it to listen:
-[The Rose, Jan 17, 2020](https://ia800200.us.archive.org/3/items/GeorgeOrwellsanimalFarmRadioAudio/AnimalFarm02.mp3)
+[The Rose, Jan 17, 2020](/assets/rose20200117.mp3)
