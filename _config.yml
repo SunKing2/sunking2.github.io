@@ -9,7 +9,7 @@ name: AlwaysWantedToPlay.com
 description: Wanting to Play Some Music
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/smallavatar.jpg
+avatar: /images/smallavatar.jpg
 
 #
 # Flags below are optional
