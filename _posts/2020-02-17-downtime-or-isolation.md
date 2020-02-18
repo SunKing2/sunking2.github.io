@@ -29,7 +29,7 @@ And the victims of the concentration camps?  I don't know why they did what they
 
 I was a little overextended by mid-week and in the anticipation of Valentine's Day coming up, which I'd just prefer to avoid altogether, and the upcoming long weekend (which technically is now), I just needed more downtime.  Too much interaction with people just exhausts me.  By mid-week, I thought I'd like to just take a break from humanity for, say, a week or two.
 
-I've been feeling really undermotivated to get up lately, and my bedtimes are approaching dawn.  Today I didn't practice at all because I got up after noon, and decided I needed to go to the Music jam (Saturdays).  Even there, I felt alone and isolated amongst people.  Someone shared something there that was profound and appropriate about isolation, but I can't recall what it was.
+I've been feeling really undermotivated to get up lately, and my bedtimes are approaching dawn.  On Saturday, I didn't practice at all because I got up after noon, and decided I needed to go to the Music jam (Saturdays).  Even there, I felt alone and isolated amongst people.  Someone shared something there that was profound and appropriate about isolation, but I can't recall what it was.
 
 ## Antisocial Media
 
