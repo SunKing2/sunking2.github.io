@@ -23,7 +23,7 @@ So what is produced in these Ivy League schools? Political and business leaders?
 
 ## Social Media and Ego
 
-I create a ton of videos on YouTube. But I find myself looking at the stats and the likes and the comments. Am I concerned with what I’m creating or am I concerned with the validation of my existence?
+I create a lot of videos on YouTube. But I find myself looking at the stats and the likes and the comments. Am I concerned with what I’m creating or am I concerned with the validation of my existence?
 
 
 ## Intrinsic Motivation
