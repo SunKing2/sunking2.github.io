@@ -36,7 +36,7 @@ I started composing some piano melodies. And I thought I was going to do it dail
 
 I decided to start small, to keep the motivation going because I have experience with taking on bigger projects that are doomed to failure due to their scope.
 
-Anyway, the point is, that every few days I write something in music, and after it is done, I get a satisfying feeling of having done something. Most of the other stuff I do daily, including spiritual work doesn’t seem to generate the same level of accomplishment. 
+The point is that every few days I write something in music, and after it is done, I get a satisfying feeling of having done something. Most of the other stuff I do daily, including spiritual work doesn’t seem to generate the same level of accomplishment. 
 
 Maybe it’s accomplishment; I don’t really know what it is. But I feel that creating something or practicing my creative craft is a much better expenditure of time than about 90 percent of the other stuff I do.
 
