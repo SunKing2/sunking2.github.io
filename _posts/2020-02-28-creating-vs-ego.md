@@ -7,7 +7,7 @@ title: Creating vs Ego
 I don’t think so. Take the presidents. 
 
 <span style="display:block;text-align:center">
-![Mount Rushmore](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dean_Franklin_-_06.04.03_Mount_Rushmore_Monument_%28by-sa%29.jpg/350px-Dean_Franklin_-_06.04.03_Mount_Rushmore_Monument_%28by-sa%29.jpg "Presidents - Mount Rushmore")
+![Mount Rushmore](/assets/rushmore.jpg "Presidents - Mount Rushmore")
 </span>
 
 Jimmy Carter came out of a little college and farmed peanuts, so they say. Kennedy, admittedly came out of Harvard, but other than being well-remembered, didn’t really create anything; perhaps not enough time. Jefferson, perhaps one of the smartest statesmen in the last few hundred years came out of the College of William & Mary. Ever hear of it?
@@ -15,7 +15,7 @@ Jimmy Carter came out of a little college and farmed peanuts, so they say. Kenne
 Take the movers and shakers of this past hundred years or so. Thomas Edison was self-educated. Henry Ford went to a business school and studied bookkeeping at a college. I can add to the list Bill Gates, Steve Jobs, and Elon Musk.
 
 <span style="display:block;text-align:center">
-![Tesla in Space(X)](https://cdn.mos.cms.futurecdn.net/ppDaE4bmoY98e2J7LezDvK-320-80.jpg "SpaceX puts Tesla Roadster in Space")
+![Tesla in Space(X)](/assets/starman.jpg "SpaceX puts Tesla Roadster in Space")
 </span>
 
 So what is produced in these Ivy League schools? Political and business leaders? But what do they actually contribute to humanity? Do they create anything, or build anything, or do they just make a ton of money and get a ton of fame?
